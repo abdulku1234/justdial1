@@ -5,12 +5,25 @@ body{
     border: 1px dashed red;
 }
 header{
-    height: 81px;
-    width: 83%;
+   min-height: 81px;
+    width: 94%;
     margin: auto;
 }
+
+ul >  li >a:hover{
+    background-color: #EDEDED;
+    cursor: pointer;
+    
+}
+.a_menu >li:hover ul{
+    display: block;
+}
+.a_submenu{
+    width:100px ;
+    display: none;
+}
 main{
-    height: 3119px;
+    height:3119px;
      
   
 }
@@ -31,6 +44,13 @@ footer{
 }
 .a_footer4{
     height: 97px;
+}
+@media  screen and (max-width: 576px) {
+    .a_form_col{
+        height: 50px;
+        
+
+    }
 }
 
 @media (min-width: 1400px) {
