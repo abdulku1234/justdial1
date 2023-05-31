@@ -45,13 +45,72 @@ footer{
 .a_footer4{
     height: 97px;
 }
+.a_tnr{
+    font-family: 'Times New Roman', Times, serif;
+}
+::-webkit-input-placeholder {
+    font-size: 15px;
+    font-weight:bold;
+    color: #333 !important;
+    opacity:0.5 !important;
+
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 15px;
+       font-weight:bold;
+       color: #333 !important;
+       opacity:0.5 !important;
+
+
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 15px;
+       font-weight:bold;
+       color: #333 !important;
+       opacity:0.5 !important;
+
+
+ }
+ 
+ /* Overriding styles */
+ 
+ ::-webkit-input-placeholder {
+    font-size: 15px!important;
+    font-weight:bold;
+    color: #333 !important;
+    opacity:0.5 !important;
+
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 15px!important;
+       font-weight:bold;
+       color: #333 !important;
+       opacity:0.5 !important;
+
+
+ }
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 15px!important;
+       font-weight:bold;
+       color: #333 !important;
+       opacity:0.5 !important;
+
+
+ }
 @media  screen and (max-width: 576px) {
     .a_form_col{
         height: 50px;
         
 
     }
+    .a_mt-5{
+        padding-top: 50px;
+    }
 }
+
 
 @media (min-width: 1400px) {
     container, .container-lg, .container-md, .container-sm, .container-xl{
