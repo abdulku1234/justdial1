@@ -31,7 +31,10 @@ main{
     margin-top: 5rem!important;
 }
 footer{
-   
+  position: fixed; 
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
 }
 .a_footer1{
     height: 112px;
